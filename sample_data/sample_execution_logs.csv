@@ -1,0 +1,7 @@
+Start Time,Workflow,Job State,Exception Type,Exception Message,Duration Seconds,Robot,Job ID
+2026-11-20T08:00:00Z,InvoiceProcessing,Successful,,,,Robot-01,1001
+2026-11-20T08:05:00Z,InvoiceProcessing,Faulted,Timeout,ERP response timeout,42,Robot-02,1002
+2026-11-20T08:10:00Z,CustomerOnboarding,Successful,,,,Robot-01,1003
+2026-11-20T08:15:00Z,CustomerOnboarding,Failed,SelectorNotFound,Submit button not found,18,Robot-03,1004
+2026-11-20T08:20:00Z,InvoiceProcessing,Running,,,,Robot-02,1005
+2026-11-20T08:25:00Z,PaymentReconciliation,Completed,,,,Robot-04,1006
